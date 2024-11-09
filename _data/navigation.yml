@@ -1,0 +1,25 @@
+- title: "About"
+  url: "/about/"
+
+- title: "Projects"
+  url: "/projects/"
+  children:
+    - title: "Project 1"
+      url: "/projects/project-1/"
+    - title: "Project 2"
+      url: "/projects/project-2/"
+
+- title: "Analysis"
+  url: "/analysis/"
+  children:
+    - title: "Report 1"
+      url: "/analysis/report-1/"
+    - title: "Report 2"
+      url: "/analysis/report-2/"
+
+- title: "Resume"
+  url: "/resume/"
+
+- title: "Tags"
+  url: "/tags/"
+

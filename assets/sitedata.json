@@ -1,32 +1,115 @@
----
-sitemap: false
----
-{% unless site.hydejack.no_search or jekyll.environment == 'development' %}
-{% assign pages = site.html_pages | where_exp:"page","page.sitemap != false" %}
-{% assign docs = site.documents | where_exp:"doc","doc.sitemap != false" %}
+
+
+
 {
   "pages": [
-    {% for page in pages %}{
-      {% if page.image       %}"image": {{       page.image       | jsonify }},{% endif %}
-      {% if page.title       %}"title": {{       page.title       | jsonify }},{% endif %}
-      {% if page.description %}"description": {{ page.description | markdownify | strip_html | jsonify }},{% endif %}
-      {% if page.content     %}"content": {{     page.content     | markdownify | strip_html | jsonify }},{% endif %}
-      "url": {{                                  page.url         | jsonify }}
-    }{% unless forloop.last %},{% endunless %}{% endfor %}
+    {
+      
+      
+      
+      "content": "\n",
+      "url": "/404.html"
+    },{
+      "image": "/assets/img/f1.png",
+      "title": "About",
+      
+      "content": "Hello, World!\n\n\n  \n    \n      Data Scientist\n      Data Engineer\n      Software Developer\n    \n  \n\n\n\n  “I am a computer engineer with a passion for data science, artificial intelligence, and stock analysis. Skilled in Python, data engineering, and statistical analysis.”\n\n\n\n  Email: joel.fernandez.roman@gmail.com\n  Website: joelfernandezroman.github.io\n  LinkedIn: linkedin.com/in/joel-fernandez-roman\n  GitHub: github.com/joelfernandezroman\n\n",
+      "url": "/about/"
+    },{
+      
+      "title": "Cookies Policy",
+      
+      "content": "TL;DR\n\nI use Google Analytics to count how many visitors I receive!\nBy some laws I must annouce that I am(or more precisely Google Analytics is) using cookies to do so.\nYes, I copied &amp; modified cookies policy from somewhere.\n\nCookies Policy\n\nThis Cookies Policy describes how my blog(“Site”) uses cookies and similar technologies to assist you when visiting the Site. If you have any comments or questions about this Cookies Policy, feel free to contact me.\n\nWhat are cookies?\n\nCookies are small pieces of data that websites store on a device. Cookies can improve your visitors’ browsing experience because they help websites remember preferences and understand how people use different features.\n\nCookies Usage\n\nCookies collect information about how visitors use the Site, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies do not collect information that specifically identifies a visitor. All information that these cookies collect is aggregated and therefore anonymous. It is only used to improve how the Site works. Cookies only collect information about the Site usage for my benefit as the Site operator.\n\nThird party cookies\n\nCertain cookies available on the Site are placed by third party website operators. This means that the information about you collected by those third party cookies will be shared with the relevant third party. Please refer to the relevant third party website operator’s privacy notice for more information about how they may use such information.\n\nYou should be aware that applications you use to access the Site, such as your web browser, may also place cookies on your device when visiting the Site, or other websites. An example of this would be where you sign in to Google Chrome using a Google Account (please note this is distinct from my use of Google Analytics – which is set out below). I have no control over these cookies so you will need to manage these cookies in the settings of the relevant applications.\n\nFor more details on cookies and similar technologies, please visit All About Cookies. For the purposes of the remaining sections of this Cookie Policy, I will refer to all technologies using the above features as “cookies”.\n\nPlease note that my Site may link to third party websites which are not operated by me. Where you follow links from the Site to the website of a third party that website may place different cookies on your device. Again, you should check the relevant privacy and/or cookie notice for more information about how that third party uses cookies.\n\nFor further information on Google Analytics and its use of cookies, please consult the Google Analytics cookie policy.\n\nHow long do cookies last?\n\nAll cookies have expiration dates that determine how long they stay in your browser:\nSession Cookies – these are temporary cookies that expire (and are automatically erased) whenever you close your browser.\nPersistent Cookies – these usually have an expiration date and so stay in your browser until they expire, or until you manually delete them.\nMore information is provided below about how long cookies from our Site stay in your browser.\n",
+      "url": "/cookies-policy/"
+    },{
+      
+      "title": "Home",
+      "description": "Joel Fernández’s Blog.\n",
+      "content": "\n",
+      "url": "/"
+    },{
+      
+      "title": "Posts",
+      "description": "All the posts in blog.\n",
+      "content": "\n",
+      "url": "/posts.html"
+    },{
+      
+      "title": "Projects",
+      "description": "All the projects I’ve done so far.\n",
+      "content": "\n",
+      "url": "/projects.html"
+    },{
+      
+      "title": "Resume",
+      "description": "Hi, I’m DaeIn Lee.\n",
+      "content": "\n",
+      "url": "/resume/"
+    },{
+      
+      "title": "Tags",
+      "description": "List of all categories &amp; tags of the blog.\n",
+      "content": "\n",
+      "url": "/tags/"
+    }
   ],
   "documents": [
-    {% for doc in docs %}{
-      {% if doc.image       %}"image": {{       doc.image       | jsonify }},{% endif %}
-      {% if doc.title       %}"title": {{       doc.title       | jsonify }},{% endif %}
-      {% if doc.date        %}"date": {{        doc.date        | jsonify }},{% endif %}
-      {% if doc.description %}"description": {{ doc.description | markdownify | strip_html | jsonify }},{% endif %}
-      {% if doc.content     %}"content": {{     doc.content     | markdownify | strip_html | jsonify }},{% endif %}
-      {% if doc.categories  %}"categories": {{  doc.categories  | jsonify }},{% endif %}
-      {% if doc.tags        %}"tags": {{        doc.tags        | jsonify }},{% endif %}
-      {% if doc.keywords    %}"keywords": {{    doc.keywords    | jsonify }},{% endif %}
-      "collection": {{                          doc.collection  | jsonify }},
-      "url": {{                                 doc.url         | jsonify }}
-    }{% unless forloop.last %},{% endunless %}{% endfor %}
+    {
+      
+      "title": "Test post",
+      "date": "2024-11-09 00:00:00 +0100",
+      
+      "content": "\n  \n    LIS (Longest Increasing Subsequence) :\n  \n  DP            O(n2)\n  Binary Search O(nlogn)\n  Segment Tree  O(nlogn)\n\n\nidx: [0  1  2  3  4  5  6]\nval: [1  2  3  4  4  5  6] 에서 4를 찾을 경우 idx 3에 위치한 iterator를 리턴합니다.\n\n#include &lt;cstdio&gt;\n#include &lt;algorithm&gt;\n#include &lt;vector&gt;\nusing namespace std;\n\ntypedef pair&lt;int, int&gt; pii;\ntypedef vector&lt;int&gt; vi;\ntypedef vector&lt;pii&gt; vii;\n\nint n;\n\nint main()\n{\n  vi inp;\n\n  scanf(\"%d\", &amp;n);\n  for (int i = 0; i &lt; n; i++) {\n    int tmp;\n    scanf(\"%d\", &amp;tmp);\n    inp.push_back(tmp);\n  }\n\n  // 첫 대소 비교를 위해 -1 원소 하나를 가지고 시작\n  vi ans (1, -1);\n  for (int num : inp) {\n    if (ans.back() &lt; num) {\n      ans.push_back(num);\n    } else {\n      auto it = lower_bound(ans.begin(), ans.end(), num);\n      *it = num;\n    }\n  }\n\n  printf(\"%lu\\n\", ans.size()-1);\n}\n\n\n#include &lt;cstdio&gt;\n#include &lt;algorithm&gt;\n#include &lt;vector&gt;\n#include &lt;utility&gt;\n#include &lt;limits&gt;\nusing namespace std;\n\ntypedef pair&lt;int, int&gt; pii;\ntypedef vector&lt;int&gt; vi;\ntypedef vector&lt;pii&gt; vii;\nint n;\n\nbool comp(const pii &amp;a, const pii &amp;b);\nvi lis(const vii &amp;inp);\n\nint main()\n{\n  vii inp;\n\n  scanf(\"%d\", &amp;n);\n  for (int i = 0; i &lt; n; i++) {\n    int tmp;\n    scanf(\"%d\", &amp;tmp);\n    inp.push_back({tmp, i});\n  }\n\n  vi ans = lis(inp);\n\n  printf(\"%lu\\n\", ans.size());\n  for (int i : ans)\n    printf(\"%d \", i);\n  printf(\"\\n\");\n}\n\nbool comp(const pii &amp;a, const pii &amp;b)\n{\n  return a.first &lt; b.first;\n}\n\nvi lis(const vii &amp;inp)\n{\n  vii ans (1, {-1, -1});\n  vi backtrace (n+1, -1);\n  vi lis;\n\n  for (auto p : inp) {\n    if (ans.back().first &lt; p.first) {\n      /* 추가 코드 */\n      backtrace[p.second] = ans.back().second;\n      /* 추가 코드 END */\n      ans.push_back(p);\n    } else {\n      auto it = lower_bound(ans.begin(), ans.end(), p, comp);\n      /* 추가 코드 */\n      backtrace[p.second] = (it-1)-&gt;second;\n      /* 추가 코드 END */\n      *it = p;\n    }\n  }\n\n  /* 추가 코드 */\n  for (int cur = ans.back().second; cur &gt;= 0; cur = backtrace[cur])\n    lis.push_back(inp[cur].first);\n  reverse(lis.begin(), lis.end());\n  /* 추가 코드 END */\n  return lis;\n}\n\n\n\n",
+      "categories": ["test_cat"],
+      "tags": ["test_tag"],
+      
+      "collection": "posts",
+      "url": "/test_cat/test-2.html"
+    },{
+      
+      "title": "Test post",
+      "date": "2024-11-09 00:00:00 +0100",
+      
+      "content": "\n  \n    LIS (Longest Increasing Subsequence) :\n  \n  DP            O(n2)\n  Binary Search O(nlogn)\n  Segment Tree  O(nlogn)\n\n\nidx: [0  1  2  3  4  5  6]\nval: [1  2  3  4  4  5  6] 에서 4를 찾을 경우 idx 3에 위치한 iterator를 리턴합니다.\n\n\n#include &lt;cstdio&gt;\n#include &lt;algorithm&gt;\n#include &lt;vector&gt;\nusing namespace std;\n\ntypedef pair&lt;int, int&gt; pii;\ntypedef vector&lt;int&gt; vi;\ntypedef vector&lt;pii&gt; vii;\n\nint n;\n\nint main()\n{\n  vi inp;\n\n  scanf(\"%d\", &amp;n);\n  for (int i = 0; i &lt; n; i++) {\n    int tmp;\n    scanf(\"%d\", &amp;tmp);\n    inp.push_back(tmp);\n  }\n\n  // 첫 대소 비교를 위해 -1 원소 하나를 가지고 시작\n  vi ans (1, -1);\n  for (int num : inp) {\n    if (ans.back() &lt; num) {\n      ans.push_back(num);\n    } else {\n      auto it = lower_bound(ans.begin(), ans.end(), num);\n      *it = num;\n    }\n  }\n\n  printf(\"%lu\\n\", ans.size()-1);\n}\n\n\n#include &lt;cstdio&gt;\n#include &lt;algorithm&gt;\n#include &lt;vector&gt;\n#include &lt;utility&gt;\n#include &lt;limits&gt;\nusing namespace std;\n\ntypedef pair&lt;int, int&gt; pii;\ntypedef vector&lt;int&gt; vi;\ntypedef vector&lt;pii&gt; vii;\nint n;\n\nbool comp(const pii &amp;a, const pii &amp;b);\nvi lis(const vii &amp;inp);\n\nint main()\n{\n  vii inp;\n\n  scanf(\"%d\", &amp;n);\n  for (int i = 0; i &lt; n; i++) {\n    int tmp;\n    scanf(\"%d\", &amp;tmp);\n    inp.push_back({tmp, i});\n  }\n\n  vi ans = lis(inp);\n\n  printf(\"%lu\\n\", ans.size());\n  for (int i : ans)\n    printf(\"%d \", i);\n  printf(\"\\n\");\n}\n\nbool comp(const pii &amp;a, const pii &amp;b)\n{\n  return a.first &lt; b.first;\n}\n\nvi lis(const vii &amp;inp)\n{\n  vii ans (1, {-1, -1});\n  vi backtrace (n+1, -1);\n  vi lis;\n\n  for (auto p : inp) {\n    if (ans.back().first &lt; p.first) {\n      /* 추가 코드 */\n      backtrace[p.second] = ans.back().second;\n      /* 추가 코드 END */\n      ans.push_back(p);\n    } else {\n      auto it = lower_bound(ans.begin(), ans.end(), p, comp);\n      /* 추가 코드 */\n      backtrace[p.second] = (it-1)-&gt;second;\n      /* 추가 코드 END */\n      *it = p;\n    }\n  }\n\n  /* 추가 코드 */\n  for (int cur = ans.back().second; cur &gt;= 0; cur = backtrace[cur])\n    lis.push_back(inp[cur].first);\n  reverse(lis.begin(), lis.end());\n  /* 추가 코드 END */\n  return lis;\n}\n\n\n\n",
+      "categories": ["test_cat"],
+      "tags": ["test_tag"],
+      
+      "collection": "posts",
+      "url": "/test_cat/test.html"
+    },{
+      
+      "title": "Finance",
+      "date": "2024-11-09 22:34:03 +0100",
+      "description": "Anything about Finance.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "featured_categories",
+      "url": "/finance/"
+    },{
+      
+      "title": "Machine learning",
+      "date": "2024-11-09 22:34:03 +0100",
+      "description": "Anything about Machine Learning and AI.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "featured_categories",
+      "url": "/machine-learning/"
+    },{
+      
+      "title": "ML Models",
+      "date": "2024-11-09 22:34:03 +0100",
+      "description": "Machine learning models related posts.\n",
+      "content": "\n",
+      "categories": ["machine-learning"],
+      "tags": [],
+      
+      "collection": "featured_tags",
+      "url": "/tag-models/"
+    }
   ]
 }
-{% else %}{}{% endunless %}
+

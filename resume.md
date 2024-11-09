@@ -11,11 +11,7 @@ left_column:
  - work
  - education
  - projects
- - publications
- - references
 right_column:
- - awards
- - volunteer
  - languages
  - skills
  - interests

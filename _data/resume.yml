@@ -82,17 +82,6 @@ skills:
       - "Flask API"
       - "SQL Databases"
 
-  - name: "C++"
-    level: "Intermediate"
-    keywords:
-      - "Algorithms"
-
-  - name: "Java"
-    level: "Intermediate"
-    keywords:
-      - "Object-Oriented Programming"
-      - "Data Structures"
-
   - name: "LaTeX"
     level: "Intermediate"
     keywords:
@@ -105,7 +94,7 @@ skills:
     keywords:
       - "Teamwork"
       - "Public Speaking"
-      - "Customer Service Management"
+      
 interests:
   - name: "Sports"
     keywords: 

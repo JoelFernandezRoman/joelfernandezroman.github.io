@@ -50,3 +50,4 @@ vendor
 *.gem
 _zip
 /stats.json
+/temp

@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: ML Models
-slug: ml-models
+title: ML Projects
+slug: ml-projects
 category: machine-learning
 sidebar: true
 description: >
-   Machine learning models related posts.
+   Machine learning projects related posts.
 ---

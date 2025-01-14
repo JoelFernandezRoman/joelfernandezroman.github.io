@@ -33,11 +33,11 @@ work:
     startDate: "2021-06-01"
     endDate: "2021-08-01"
   - company: "Marsol Hotels & Resorts"
-    position: "Restaurant Server"
+    position: "Restaurant Waiter"
     startDate: "2020-06-01"
     endDate: "2020-09-01"
   - company: "Marsol Hotels & Resorts"
-    position: "Restaurant Server"
+    position: "Restaurant Waiter"
     startDate: "2019-06-01"
     endDate: "2019-09-01"
 education:
@@ -65,32 +65,40 @@ skills:
       - "Machine Learning"
       - "Object-Oriented Programming (OOP)"
       - "NumPy"
+      - "Professional documentation"
+      - "Unit Testing"
 
   - name: "Machine Learning"
-    level: "Master"
+    level: "Intermediate"
     keywords:
       - "Exploratory Data Analysis"
-      - "Statistical Analysis"
       - "Supervised Learning"
       - "Unsupervised Learning"
       - "Data Preprocessing"
 
   - name: "Data Engineering"
-    level: "Advanced"
+    level: "Intermediate"
     keywords:
+      - "ChatGPT/Gemini Integration for ETL"
       - "Data Extraction and Transformation (ETL)"
       - "Flask API"
       - "SQL Databases"
+
+  - name: "Web Development"
+    level: "Intermediate"
+    keywords: 
+      - "Javascript / VUE"
+      - "CSS"
+      - "HTML"
 
   - name: "LaTeX"
     level: "Intermediate"
     keywords:
       - "Technical Documentation"
-      - "Scientific Papers"
       - "Presentations"
 
   - name: "Soft Skills"
-    level: "Advanced"
+    level: "Master"
     keywords:
       - "Teamwork"
       - "Public Speaking"
@@ -99,13 +107,10 @@ interests:
   - name: "Sports"
     keywords: 
       - "Formula 1"
-      - "Padel"
-      - "Tennis"
-      - "Gym"
+
   - name: "Studies"
     keywords: 
       - "Finance"
-      - "Business Cycle Theory"
       - "Portfolio Management"
       - "Stock Market"
   - name: "Games"

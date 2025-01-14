@@ -13,7 +13,7 @@ order: 1
 Data Scientist | Data Engineer | Software Developer
 {:.lead}
 
-> "I am a computer engineer with a passion for data science, artificial intelligence, and stock analysis. Skilled in Python, data engineering, and statistical analysis."
+> "I am a computer engineer with a passion for data science, artificial intelligence, and stock analysis. Skilled in Python, data engineering, and analytics."
 
 - **Email**: [joel.fernandez.roman@gmail.com](mailto:joel.fernandez.roman@gmail.com)
 - **Website**: [joelfernandezroman.github.io](https://joelfernandezroman.github.io/)

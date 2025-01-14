@@ -373,6 +373,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jemoji
+  - jekyll-jupyter-notebook
 
 
 # SEO Tag

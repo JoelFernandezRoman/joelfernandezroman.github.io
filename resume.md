@@ -3,14 +3,13 @@ layout: resume
 title: Resume
 permalink: /resume/
 description: >
-  Hi, I'm DaeIn Lee.
+  Hi, Joel Fernández.
 hide_description: true
 sidebar: true
 order: 5
 left_column:
  - work
  - education
- - projects
 right_column:
  - languages
  - skills

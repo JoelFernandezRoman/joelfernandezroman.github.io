@@ -6,47 +6,44 @@ basics:
   phone: ""
   website: "https://joelfernandezroman.github.io/"
   summary: >
-    I am a computer engineer with a special interest in data science, statistics, and artificial intelligence.<br>
-    I have a passion for stock analysis, risk management, and portfolio theory, with solid software development skills, especially in Python.<br>
+    I work with Python on data science and machine learning projects, mainly focusing on data preprocessing, feature engineering, and model development.<br>
+
+    I'm motivated by real-world applications where data can lead to meaningful insights or impact.<br>
   profiles:
     - network: "LinkedIn"
       username: "Joel Fernández Román"
       url: "https://www.linkedin.com/in/joel-fernandez-roman"
 work:
+  - company: "MiceLab - Universitat de Girona"
+    position: "Data Engineer"
+    website: "https://micelab.udg.edu/"
+    startDate: "2025-02-03"
+    summary: >
+      Data engineering and software development in the MiceLab research group, focused on ETL, data modeling, and standardization. Two main projects were developed and presented as part of my Master's Thesis.
+    highlights:
+      - "Designed and developed a modular Python library to support research workflows with tools for preprocessing, visualization, and report generation aimed at non-technical users."
+      - "Led the development of a data ingestion framework to standardize heterogeneous diabetes-related datasets into a unified structure for consistent and reproducible analysis."
+      - "Defined data models to ensure maintainability, interoperability, and documentation clarity."
+
   - company: "mjn-neuro"
     position: "Data Engineer Jr."
     website: "https://mjn.cat"
     startDate: "2023-02-01"
     endDate: "2024-07-01"
     summary: >
-      Software development in Python, focused on data analysis and training of artificial intelligence algorithms. Actively participated in MJN’s main project.
+      Software development in Python, focused on data analysis and training of artificial intelligence algorithms.
     highlights:
-      - "Lead developer for the VISOR graphical application (backend & frontend), responsible for managing Bluetooth connections and data logging via Bluetooth."
+      - "Lead developer for the VISOR graphical application (backend & frontend)."
       - "VISOR Project: https://www.iiia.csic.es/en-us/research/project/?project_id=234"
-      - "Algorithm developer for the runtime functionality in SERAS (https://mjn.cat), specializing in real-time evaluation of the algorithm and managing mobile alerts in cases of epileptic seizures."
-  - company: "Mercadona"
-    position: "Cashier and Stocker"
-    startDate: "2022-06-01"
-    endDate: "2022-09-01"
-  - company: "Mercadona"
-    position: "Cashier"
-    startDate: "2021-06-01"
-    endDate: "2021-08-01"
-  - company: "Marsol Hotels & Resorts"
-    position: "Restaurant Waiter"
-    startDate: "2020-06-01"
-    endDate: "2020-09-01"
-  - company: "Marsol Hotels & Resorts"
-    position: "Restaurant Waiter"
-    startDate: "2019-06-01"
-    endDate: "2019-09-01"
+      - "Algorithm developer in SERAS, focused on real-time evaluation and handling mobile alerts for epileptic seizures."
+
 education:
   - institution: "Universitat de Girona"
     area: "Master's in Data Science and Artificial Intelligence"
     studyType: "Master's Degree"
     startDate: "2024-10-01"
-    endDate: "2025-06-01"
-    gpa: "In progress"
+    endDate: "2025-07-01"
+    gpa: "B+"
   - institution: "Universitat de Girona"
     area: "Computer Engineering"
     studyType: "Bachelor's Degree"
@@ -60,13 +57,11 @@ skills:
   - name: "Python"
     level: "Master"
     keywords:
-      - "Data Analysis"
-      - "ETL"
-      - "Machine Learning"
-      - "Object-Oriented Programming (OOP)"
+      - "Software architecture"
+      - "Software design patterns"
       - "NumPy"
-      - "Professional documentation"
-      - "Unit Testing"
+      - "Pandas"
+      - "PyTest"
 
   - name: "Machine Learning"
     level: "Intermediate"
@@ -79,23 +74,21 @@ skills:
   - name: "Data Engineering"
     level: "Intermediate"
     keywords:
-      - "ChatGPT/Gemini Integration for ETL"
-      - "Data Extraction and Transformation (ETL)"
-      - "Flask API"
+      - "ETL"
+      - "Data Modeling"
+      - "Flask"
+      - "Fast API"
+      - "Docker"
+      - "Pydantic"
       - "SQL Databases"
 
-  - name: "Web Development"
-    level: "Intermediate"
-    keywords: 
-      - "Javascript / VUE"
-      - "CSS"
-      - "HTML"
-
-  - name: "LaTeX"
+  - name: "Documentation"
     level: "Intermediate"
     keywords:
       - "Technical Documentation"
-      - "Presentations"
+      - "Latex"
+      - "MkDocs"
+
 
   - name: "Soft Skills"
     level: "Master"
@@ -111,7 +104,6 @@ interests:
   - name: "Studies"
     keywords: 
       - "Finance"
-      - "Portfolio Management"
       - "Stock Market"
   - name: "Games"
     keywords:

@@ -21,9 +21,8 @@ work:
     summary: >
       Data engineering and software development in the MiceLab research group, focused on ETL, data modeling, and standardization. Two main projects were developed and presented as part of my Master's Thesis.
     highlights:
-      - "Designed and developed a modular Python library to support research workflows with tools for preprocessing, visualization, and report generation aimed at non-technical users."
-      - "Led the development of a data ingestion framework to standardize heterogeneous diabetes-related datasets into a unified structure for consistent and reproducible analysis."
-      - "Defined data models to ensure maintainability, interoperability, and documentation clarity."
+      - "Designed and developed a modular Python library to support research workflows with tools for preprocessing, visualization, and report generation."
+      - "Led the development of a data ingestion framework to standardize heterogeneous diabetes-related datasets into a unified structure for consistent analysis."
 
   - company: "mjn-neuro"
     position: "Junior Data Scientist"
@@ -33,9 +32,8 @@ work:
     summary: >
       Software development in Python, focused on data analysis and training of artificial intelligence algorithms.
     highlights:
-      - "Lead developer for the VISOR graphical application (backend & frontend)."
-      - "VISOR Project: https://www.iiia.csic.es/en-us/research/project/?project_id=234"
-      - "Algorithm developer in SERAS, focused on real-time evaluation and handling mobile alerts for epileptic seizures."
+      - "Developed a GUI application for the <a href='https://www.iiia.csic.es/en-us/research/project/?project_id=234'>VISOR Project</a>, handling real-time brain signal input from a wearable device."
+      - "Algorithm developer in SERAS, focused on real-time evaluation."
 
 education:
   - institution: "Universitat de Girona"
@@ -43,14 +41,17 @@ education:
     studyType: "Master's Degree"
     startDate: "2024-10-01"
     endDate: "2025-07-01"
-    gpa: "B+"
+    summary: "Global movement of free coding clubs for young people."
+    courses:
+    - Machine Learning (9.1)  
+    - Data Acquisition & Preparation (9.5)  
+
   - institution: "Universitat de Girona"
-    area: "Computer Engineering"
+    area: "Computer Science"
     studyType: "Bachelor's Degree"
     startDate: "2019-09-01"
     endDate: "2023-06-01"
-    gpa: "B"
-    highlights:
+    courses:
       - "My Bachelor's Thesis, titled 'Collection and Analysis of Financial Information for Stock Market Performance Prediction,' received a grade of 9.49."
 
 skills:
@@ -64,7 +65,7 @@ skills:
       - "PyTest"
 
   - name: "Machine Learning"
-    level: "Intermediate"
+    level: "Master"
     keywords:
       - "Exploratory Data Analysis"
       - "Supervised Learning"
@@ -72,7 +73,7 @@ skills:
       - "Data Preprocessing"
 
   - name: "Data Engineering"
-    level: "Intermediate"
+    level: "Master"
     keywords:
       - "ETL"
       - "Data Modeling"
@@ -83,7 +84,7 @@ skills:
       - "SQL Databases"
 
   - name: "Documentation"
-    level: "Intermediate"
+    level: "Master"
     keywords:
       - "Technical Documentation"
       - "Latex"
@@ -97,19 +98,13 @@ skills:
       - "Public Speaking"
       
 interests:
-  - name: "Sports"
-    keywords: 
-      - "Formula 1"
-
   - name: "Studies"
     keywords: 
       - "Finance"
       - "Stock Market"
-  - name: "Games"
-    keywords:
-      - "Chess"
+
 languages:
   - language: "Spanish"
     fluency: "Native"
   - language: "English"
-    fluency: "Intermediate"
+    fluency: "Intermediate (B2)"

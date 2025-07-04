@@ -3,7 +3,10 @@ basics:
   label: "Data Scientist | Data Engineer | Software Developer"
   picture: "/assets/img/logo.jpg"
   email: "joel.fernandez.roman@gmail.com"
-  phone: ""
+  phone: "+34 611 482 843"
+  location:
+      city: "Girona"
+      region: "Catalunya, Spain"
   website: "https://joelfernandezroman.github.io/"
   summary: >
     I work with Python on data science and machine learning projects, mainly focusing on data preprocessing, feature engineering, and model development.<br>
@@ -19,7 +22,7 @@ work:
     website: "https://micelab.udg.edu/"
     startDate: "2025-02-03"
     summary: >
-      Data engineering and software development in the MiceLab research group, focused on ETL, data modeling, and standardization. Two main projects were developed and presented as part of my Master's Thesis.
+      Data engineering and software development in the MiceLab research group. Two main projects were developed and presented as part of my Master's Thesis.
     highlights:
       - "Designed and developed a modular Python library to support research workflows with tools for preprocessing, visualization, and report generation."
       - "Led the development of a data ingestion framework to standardize heterogeneous diabetes-related datasets into a unified structure for consistent analysis."
@@ -37,14 +40,12 @@ work:
 
 education:
   - institution: "Universitat de Girona"
-    area: "Master's in Data Science and Artificial Intelligence"
+    area: "Data Science and Artificial Intelligence"
     studyType: "Master's Degree"
     startDate: "2024-10-01"
     endDate: "2025-07-01"
     summary: "Global movement of free coding clubs for young people."
-    courses:
-    - Machine Learning (9.1)  
-    - Data Acquisition & Preparation (9.5)  
+    courses: "Machine Learning (9.1) | Data Acquisition & Preparation (9.5)"
 
   - institution: "Universitat de Girona"
     area: "Computer Science"
@@ -63,14 +64,18 @@ skills:
       - "NumPy"
       - "Pandas"
       - "PyTest"
+      - "Jupyter Notebook"
 
   - name: "Machine Learning"
     level: "Master"
     keywords:
-      - "Exploratory Data Analysis"
+      - "Scikit-learn"
+      - "XGBoost"
+      - "TensorFlow"
+      - "Model Evaluation"
+      -  "Hyperparameter Tuning"
       - "Supervised Learning"
       - "Unsupervised Learning"
-      - "Data Preprocessing"
 
   - name: "Data Engineering"
     level: "Master"
@@ -83,20 +88,13 @@ skills:
       - "Pydantic"
       - "SQL Databases"
 
-  - name: "Documentation"
+  - name: "Technical Writing"
     level: "Master"
     keywords:
       - "Technical Documentation"
       - "Latex"
       - "MkDocs"
 
-
-  - name: "Soft Skills"
-    level: "Master"
-    keywords:
-      - "Teamwork"
-      - "Public Speaking"
-      
 interests:
   - name: "Studies"
     keywords: 
